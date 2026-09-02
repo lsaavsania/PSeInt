@@ -16,10 +16,11 @@ Practicar la construcción de algoritmos mediante el uso de:
 - Comparaciones y toma de decisiones.
 - Resolución de problemas mediante pseudocódigo.
 
-## 📚 Ejercicios
+##  Ejercicios
 
 | N.° | Archivo | Descripción | Conceptos principales |
 |---:|---|---|---|
+| 00 | [2026-2 Guía Semana 02.pdf](./2026-2 Guía Semana 02.pdf) | Enunciado de los ejercicios. | Pensamiento computacional |
 | 01 | [Ejercicio01.psc](./Ejercicio01.psc) | Calcula el área de un rectángulo a partir de su largo y ancho. | Variables, entrada, operación aritmética |
 | 02 | [Ejercicio02.psc](./Ejercicio02.psc) | Convierte una temperatura de grados Celsius a Fahrenheit. | Fórmulas, operaciones aritméticas |
 | 03 | [Ejercicio03.psc](./Ejercicio03.psc) | Calcula el promedio de tres números. | Variables, suma, división |
@@ -108,9 +109,7 @@ Estas estructuras permiten procesar varios datos y repetir acciones sin escribir
 
 Varios ejercicios utilizan variables para contar elementos o acumular valores durante la ejecución del algoritmo.
 
-## 💡 Uso educativo
-
-Este material puede utilizarse como apoyo para cursos introductorios de:
+## Uso educativo
 
 - Pensamiento computacional.
 - Fundamentos de programación.
