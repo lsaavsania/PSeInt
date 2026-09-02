@@ -1,6 +1,6 @@
 # Ejercicios de PSeInt
 
-Repositorio con **20 ejercicios resueltos en PSeInt**, diseñados para practicar de manera progresiva los fundamentos de la programación y el pensamiento algorítmico.
+Repositorio con **20 ejercicios resueltos en PSeInt**, diseñados para practicar de manera progresiva los fundamentos de la programación y el pensamiento computacional.
 
 Los archivos utilizan la extensión `.psc` y pueden abrirse directamente con **PSeInt**.
 
@@ -41,7 +41,7 @@ Practicar la construcción de algoritmos mediante el uso de:
 | 19 | [Ejercicio19.psc](./Ejercicio19.psc) | Registra botellas aptas y defectuosas hasta que el usuario finaliza el proceso. | Ciclo `Mientras`, contadores |
 | 20 | [Ejercicio20.psc](./Ejercicio20.psc) | Determina si un ascensor debe subir, bajar o permanecer en el mismo piso. | Condicionales, diferencias |
 
-## 🛠️ Requisitos
+## Requisitos
 
 Para ejecutar los ejercicios se necesita:
 
@@ -50,18 +50,14 @@ Para ejecutar los ejercicios se necesita:
 
 PSeInt es una herramienta educativa que permite escribir y ejecutar algoritmos utilizando pseudocódigo.
 
-## ▶️ Cómo utilizar los archivos
+## Cómo utilizar los archivos
 
-1. Descargar o clonar este repositorio.
-2. Abrir **PSeInt**.
-3. Seleccionar **Archivo → Abrir**.
-4. Elegir uno de los archivos `.psc`.
-5. Ejecutar el algoritmo.
-6. Ingresar los datos solicitados y observar el resultado.
+Abrir el archivo, por ejemplo Ejercicio01.psc.
+En la vista del archivo, hacer clic en el botón Download raw file o en los tres puntos y elegir Download.
+El archivo .psc se descargará directamente y luego podrán abrirlo con PSeInt.
 
-También puede abrirse cada archivo directamente desde el explorador de archivos si la extensión `.psc` está asociada con PSeInt.
 
-## 📂 Estructura del repositorio
+## Estructura del repositorio
 
 ```text
 .
@@ -88,7 +84,6 @@ También puede abrirse cada archivo directamente desde el explorador de archivos
 └── Ejercicio20.psc
 ```
 
-## 🧠 Contenidos de programación trabajados
 
 Los ejercicios avanzan desde algoritmos secuenciales sencillos hasta problemas que requieren decisiones y repeticiones.
 
