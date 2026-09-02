@@ -4,7 +4,7 @@ Repositorio con **20 ejercicios resueltos en PSeInt**, diseñados para practicar
 
 Los archivos utilizan la extensión `.psc` y pueden abrirse directamente con **PSeInt**.
 
-## 🎯 Objetivo
+## Objetivo
 
 Practicar la construcción de algoritmos mediante el uso de:
 
@@ -20,7 +20,7 @@ Practicar la construcción de algoritmos mediante el uso de:
 
 | N.° | Archivo | Descripción | Conceptos principales |
 |---:|---|---|---|
-| 00 | [2026-2 Guía Semana 02.pdf](./2026-2 Guía Semana 02.pdf) | Enunciado de los ejercicios. | Pensamiento computacional |
+| 00 | [2026-2 Guía Semana 02.pdf](./2026-2%20Guía%20Semana%2002.pdf) | Enunciado de los ejercicios. | Pensamiento computacional |
 | 01 | [Ejercicio01.psc](./Ejercicio01.psc) | Calcula el área de un rectángulo a partir de su largo y ancho. | Variables, entrada, operación aritmética |
 | 02 | [Ejercicio02.psc](./Ejercicio02.psc) | Convierte una temperatura de grados Celsius a Fahrenheit. | Fórmulas, operaciones aritméticas |
 | 03 | [Ejercicio03.psc](./Ejercicio03.psc) | Calcula el promedio de tres números. | Variables, suma, división |
