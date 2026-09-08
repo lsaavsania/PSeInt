@@ -1,14 +1,16 @@
 Algoritmo Ejercicio04
-	// entrada
+	// Entrada
 	Leer n
-	// cálculos y salidas
+	// Cálculo
 	Si n<0 Entonces
-		Escribir n " es negativo"
+		resultado="negativo"
 	SiNo
 		Si n=0 Entonces
-			Escribir n " es cero"
+			resultado="cero"
 		SiNo 
-			Escribir n " es positivo"
+			resultado="positivo"
 		FinSi
 	FinSi
+	// Salida
+	Escribir n, " es ", resultado
 FinAlgoritmo

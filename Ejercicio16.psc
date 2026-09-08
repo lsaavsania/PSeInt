@@ -1,10 +1,12 @@
 Algoritmo Ejercicio16
 	// Entrada
 	Leer t
-	// Cálculo y salida
+	// Cálculo
 	Si t>= 0 Y t<= 5 Entonces
-		Escribir "Producto apto"
+		resultado="Producto apto"
 	SiNo
-		Escribir "Producto no apto"
+		resultado="Producto no apto"
 	FinSi
+	// Salida
+	Escribir resultado
 FinAlgoritmo

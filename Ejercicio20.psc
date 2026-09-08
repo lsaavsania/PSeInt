@@ -7,13 +7,14 @@ Algoritmo Ejercicio20
 	// Cálculos y salidas
 	Si destino > origen Entonces		
 		pisos = destino - origen
-		Escribir "El ascensor debe subir ", pisos, " piso(s)."
+		mensaje="El ascensor debe subir ", pisos, " piso(s)."
 	Sino
 		Si destino < origen Entonces
 			pisos = origen - destino
-			Escribir "El ascensor debe bajar ", pisos, " piso(s)."
+			mensaje="El ascensor debe bajar ", pisos, " piso(s)."
 		Sino
-			Escribir "El ascensor ya se encuentra en el piso solicitado."
+			mensaje= "El ascensor ya se encuentra en el piso solicitado."
 		FinSi
 	FinSi
+	Escribir mensaje
 FinAlgoritmo

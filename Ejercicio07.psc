@@ -1,10 +1,12 @@
 Algoritmo Ejercicio07
 	// Entrada
 	Leer km
-	// Cálculos y Salida
+	// Cálculo
 	Si km<=3 Entonces
-		Escribir "El monto es:" 8
+		costo= 8
 	SiNo 
-		Escribir "El monto es:" 8+(km-3)*2.5
+		costo=8+(km-3)*2.5
 	FinSi
+	// Salida
+	Escribir "El costo es ",costo
 FinAlgoritmo

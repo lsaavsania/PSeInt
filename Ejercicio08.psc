@@ -3,19 +3,19 @@ Algoritmo Ejercicio08
 	Leer nota
 	// Cálculos y salidas
 	Si nota>=18 y nota <=20 Entonces
-		Escribir "Excelente"
+		resultado="Excelente"
 	SiNo
 		Si nota>=15 y nota<=17 Entonces
-			Escribir "Bueno"
+			resultado="Bueno"
 		SiNo
 			Si nota>=11 y nota <=14 Entonces
-				Escribir "Regular"
+				resultado="Regular"
 			SiNo
 				Si nota>=0 y nota<=10 Entonces
-					Escribir "Desaprobado"
+					resultado="Desaprobado"
 				FinSi
 			FinSi
 		FinSi
 	FinSi
-	
+	Escribir "La clasificación es ", resultado
 FinAlgoritmo

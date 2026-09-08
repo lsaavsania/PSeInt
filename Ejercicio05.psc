@@ -1,10 +1,12 @@
 Algoritmo Ejercicio05
 	// Entrada
 	Leer n
-	// Cálculos y salidas
+	// Cálculo
 	Si n MOD 2=0 Entonces
-		Escribir n, ' es par'
+		resultado='par'
 	SiNo
-		Escribir n, ' es impar'
+		resultado='impar'
 	FinSi
+	// Salida
+	Escribir n, " es ", resultado
 FinAlgoritmo

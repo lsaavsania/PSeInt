@@ -5,13 +5,14 @@ Algoritmo Ejercicio17
 	// Cálculos y salidas
 	valor=t_deseada-t_ambiente
 	Si t_ambiente < t_deseada Entonces
-		Escribir "Activar calefacción para subir ", valor , " grados"
+		mensaje="Activar calefacción para subir ", valor , " grados"
 	SiNo
 		Si t_ambiente > t_deseada Entonces
 			valor=t_ambiente-t_deseada
-			Escribir "Encender refrigeración para bajar ", valor , " grados"
+			mensaje="Encender refrigeración para bajar ", valor , " grados"
 		SiNo
-			Escribir "Mantener estado actual"
+			mensaje="Mantener estado actual"
 		FinSi
 	FinSi
+	Escribir mensaje
 FinAlgoritmo

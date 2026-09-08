@@ -10,10 +10,12 @@ Algoritmo Ejercicio14
 		// Incrementar intento
 		intentos=intentos+1
 	FinMientras
-	// Salidas
+	// Calcular mensaje
 	Si contrasena=clave Entonces
-		Escribir "Acceso permitido"
+		resultado="Acceso permitido"
 	SiNo
-		Escribir "Acceso no permitido"
+		Resultado="Acceso no permitido"
 	FinSi
+	// Salida
+	Escribir Resultado
 FinAlgoritmo
