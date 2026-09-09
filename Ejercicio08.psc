@@ -1,7 +1,7 @@
 Algoritmo Ejercicio08
 	// Entrada
 	Leer nota
-	// Cálculos y salidas
+	// CÃ¡lculos y salidas
 	Si nota>=18 y nota <=20 Entonces
 		resultado="Excelente"
 	SiNo
@@ -15,5 +15,5 @@ Algoritmo Ejercicio08
 			FinSi
 		FinSi
 	FinSi
-	Escribir "La clasificación es ", resultado
+	Escribir "La clasificaciÃ³n es " resultado
 FinAlgoritmo
