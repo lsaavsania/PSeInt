@@ -1,7 +1,7 @@
 Algoritmo Ejercicio13
 	// Entrada
 	Leer consumo
-	// Cálculo
+	// CÃ¡lculo
 	Si consumo <= 100 Entonces
 		total = consumo * 0.50
 	SiNo
@@ -12,5 +12,5 @@ Algoritmo Ejercicio13
 		FinSi
 	FinSi
 	// Salida
-	Escribir "Monto total del recibo: S/ ", total
+	Escribir "Monto total del recibo: S/ " total
 FinAlgoritmo
