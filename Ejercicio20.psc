@@ -6,5 +6,5 @@ Algoritmo Ejercicio20
 		descuento=0
 	FinSi
 	montofinal=monto-descuento
-	Escribir "El monto a pagar es ", montofinal
+	Escribir "El monto a pagar es " montofinal
 FinAlgoritmo
