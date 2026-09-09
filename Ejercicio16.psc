@@ -2,7 +2,7 @@ Algoritmo Ejercicio16
 	// Inicializar
 	ocupados = 0
 	libres = 0
-	// Cálculo
+	// CÃ¡lculo
 	Para i = 1 Hasta 10 Hacer
 		Escribir "Casillero:",i, " (1 = ocupado, 0 = libre): "
 		Leer estado
@@ -14,6 +14,6 @@ Algoritmo Ejercicio16
 		FinSi
 	FinPara
 	// Salida
-	Escribir "Casilleros ocupados: ", ocupados
-	Escribir "Casilleros libres: ", libres
+	Escribir "Casilleros ocupados: " ocupados
+	Escribir "Casilleros libres: " libres
 FinAlgoritmo
