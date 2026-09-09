@@ -3,7 +3,7 @@ Algoritmo Ejercicio06
 	Leer a
 	Leer b
 	Leer c
-	// Cálculo
+	// CÃ¡lculo
 	Si a>=b y a>=c Entonces
 		mayor=a
 	SiNo 
@@ -14,5 +14,5 @@ Algoritmo Ejercicio06
 		FinSi
 	FinSi
 	// Salida
-	Escribir "El mayor es ", mayor
+	Escribir "El mayor es " mayor
 FinAlgoritmo
