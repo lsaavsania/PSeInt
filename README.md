@@ -33,8 +33,8 @@ Practicar la construcción de algoritmos mediante el uso de:
 | 10 | [Ejercicio10.psc](./Ejercicio10.psc) | Cuenta estudiantes aprobados y desaprobados. | Ciclo `Para`, contadores |
 | 11 | [Ejercicio11.psc](./Ejercicio11.psc) | Calcula el promedio de edades y cuenta cuántas personas son mayores de edad. | Ciclo `Para`, acumulador, contador |
 | 12 | [Ejercicio12.psc](./Ejercicio12.psc) | Encuentra el número mayor y el menor de un conjunto de valores. | Ciclo `Para`, comparación |
-| 13 | [Ejercicio13.psc](./Ejercicio13.psc) | Calcula cuántos meses son necesarios para alcanzar una meta de ahorro. | Ciclo `Mientras`, acumulador |
-| 14 | [Ejercicio14.psc](./Ejercicio14.psc) | Simula el acceso mediante una contraseña con un máximo de tres intentos. | Ciclo `Mientras`, condición compuesta |
+| 13 | [Ejercicio13.psc](./Ejercicio13.psc) | 
+| 14 | [Ejercicio14.psc](./Ejercicio14.psc) | 
 | 15 | [Ejercicio15.psc](./Ejercicio15.psc) | Calcula el monto de un recibo de electricidad según tramos de consumo. | Condicionales, cálculo por tramos |
 | 16 | [Ejercicio16.psc](./Ejercicio16.psc) | Determina si un producto se encuentra apto según su temperatura. | Rangos, operadores lógicos |
 | 17 | [Ejercicio17.psc](./Ejercicio17.psc) | Simula un termostato que activa calefacción o refrigeración. | Comparaciones, condicionales |
