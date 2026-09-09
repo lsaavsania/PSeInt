@@ -1,7 +1,7 @@
 Algoritmo Ejercicio04
 	// Entrada
 	Leer n
-	// Cálculo
+	// CÃ¡lculo
 	Si n<0 Entonces
 		resultado="negativo"
 	SiNo
@@ -12,5 +12,5 @@ Algoritmo Ejercicio04
 		FinSi
 	FinSi
 	// Salida
-	Escribir n, " es ", resultado
+	Escribir n " es " resultado
 FinAlgoritmo
