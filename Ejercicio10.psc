@@ -18,5 +18,4 @@ Algoritmo Ejercicio10
 	// Salidas
 	Escribir "Aprobados:" ctaaprobados
 	Escribir "Desaprobados:" ctadesaprobados
-	
 FinAlgoritmo

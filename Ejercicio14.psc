@@ -1,21 +1,12 @@
 Algoritmo Ejercicio14
-	// Iniciar
-	clave="iia"
-	intentos=0
-	contrasena="XXXXX"
-	//Mientras no sea la clave y no se llgue a los intentos
-	Mientras contrasena<>clave Y intentos<3 Hacer
-		//Entrada contrasena
-		Leer contrasena
-		// Incrementar intento
-		intentos=intentos+1
-	FinMientras
-	// Calcular mensaje
-	Si contrasena=clave Entonces
-		resultado="Acceso permitido"
+	// Entrada
+	Leer t
+	// Cálculo
+	Si t>= 0 Y t<= 5 Entonces
+		resultado="Producto apto"
 	SiNo
-		Resultado="Acceso no permitido"
+		resultado="Producto no apto"
 	FinSi
 	// Salida
-	Escribir Resultado
+	Escribir resultado
 FinAlgoritmo

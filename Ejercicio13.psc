@@ -1,17 +1,16 @@
 Algoritmo Ejercicio13
-	// Entradas
-	Leer ahorro_mes
-	Leer meta
-	// Iniciar
-	total_ahorrado=0
-	meses=0
-	//Mientras no se llegue a la meta
-	Mientras total_ahorrado<meta Hacer
-		//Cálculos
-		total_ahorrado=total_ahorrado+ahorro_mes
-		meses=meses+1
-	FinMientras
-	// Salidas
-	Escribir "monto total ahorrado:" total_ahorrado
-	Escribir "cantidad de meses necesarios:" meses
+	// Entrada
+	Leer consumo
+	// Cálculo
+	Si consumo <= 100 Entonces
+		total = consumo * 0.50
+	SiNo
+		Si consumo <= 300 Entonces
+			total = 100 * 0.50 + (consumo - 100) * 0.70
+		SiNo
+			total = 100 * 0.50 + 200 * 0.70 + (consumo - 300) * 1.00
+		FinSi
+	FinSi
+	// Salida
+	Escribir "Monto total del recibo: S/ ", total
 FinAlgoritmo

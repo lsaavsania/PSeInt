@@ -1,16 +1,18 @@
 Algoritmo Ejercicio15
 	// Entrada
-	Leer consumo
-	// Cálculo
-	Si consumo <= 100 Entonces
-		total = consumo * 0.50
+	Leer t_ambiente
+	Leer t_deseada
+	// Cálculos y salidas
+	valor=t_deseada-t_ambiente
+	Si t_ambiente < t_deseada Entonces
+		mensaje="Activar calefacción para subir ", valor , " grados"
 	SiNo
-		Si consumo <= 300 Entonces
-			total = 100 * 0.50 + (consumo - 100) * 0.70
+		Si t_ambiente > t_deseada Entonces
+			valor=t_ambiente-t_deseada
+			mensaje="Encender refrigeración para bajar ", valor , " grados"
 		SiNo
-			total = 100 * 0.50 + 200 * 0.70 + (consumo - 300) * 1.00
+			mensaje="Mantener estado actual"
 		FinSi
 	FinSi
-	// Salida
-	Escribir "Monto total del recibo: S/ ", total
+	Escribir mensaje
 FinAlgoritmo

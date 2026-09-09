@@ -11,9 +11,7 @@ Algoritmo Ejercicio08
 			Si nota>=11 y nota <=14 Entonces
 				resultado="Regular"
 			SiNo
-				Si nota>=0 y nota<=10 Entonces
-					resultado="Desaprobado"
-				FinSi
+				resultado="Desaprobado"
 			FinSi
 		FinSi
 	FinSi

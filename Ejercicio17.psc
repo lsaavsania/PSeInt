@@ -1,17 +1,19 @@
 Algoritmo Ejercicio17
-	// Entrada
-	Leer t_ambiente
-	Leer t_deseada
+	//Entradas
+	Escribir "Ingrese el piso de origen:"
+	Leer origen
+	Escribir "Ingrese el piso de destino:"
+	Leer destino
 	// Cálculos y salidas
-	valor=t_deseada-t_ambiente
-	Si t_ambiente < t_deseada Entonces
-		mensaje="Activar calefacción para subir ", valor , " grados"
-	SiNo
-		Si t_ambiente > t_deseada Entonces
-			valor=t_ambiente-t_deseada
-			mensaje="Encender refrigeración para bajar ", valor , " grados"
-		SiNo
-			mensaje="Mantener estado actual"
+	Si destino > origen Entonces		
+		pisos = destino - origen
+		mensaje="El ascensor debe subir ", pisos, " piso(s)."
+	Sino
+		Si destino < origen Entonces
+			pisos = origen - destino
+			mensaje="El ascensor debe bajar ", pisos, " piso(s)."
+		Sino
+			mensaje= "El ascensor ya se encuentra en el piso solicitado."
 		FinSi
 	FinSi
 	Escribir mensaje
