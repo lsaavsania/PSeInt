@@ -4,5 +4,5 @@ Algoritmo Ejercico19
 	Para i=1 hasta n Hacer
 		factorial=factorial*i
 	FinPara
-	Escribir "El factorial de ", n, " es ", factorial 
+	Escribir "El factorial de " n " es " factorial 
 FinAlgoritmo
