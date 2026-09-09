@@ -8,5 +8,5 @@ Algoritmo Ejercicio09
 		suma=suma+i
 	Fin Para
 	// Salida
-	Escribir "La suma de los ", n ," término es " , suma
+	Escribir "La suma de los " n  " tÃ©rmino es "  suma
 FinAlgoritmo
