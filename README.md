@@ -97,10 +97,7 @@ Varios ejercicios utilizan variables para contar elementos o acumular valores du
 - Fundamentos de programación.
 - Algoritmos y pseudocódigo.
 - Introducción a PSeInt.
-
 Los ejercicios están organizados para facilitar la práctica progresiva de los conceptos fundamentales antes de trabajar con un lenguaje de programación.
 
----
-
-**Herramienta utilizada:** PSeInt  
-**Formato de los algoritmos:** `.psc`
+## Nota
+Las soluciones incluidas en el cuaderno tienen un propósito didáctico. Se recomienda intentar resolver cada ejercicio antes de revisar la solución correspondiente y utilizar el código como referencia para comparar diferentes formas de plantear un algoritmo.
